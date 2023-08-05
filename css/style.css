@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* Inicio Cabeçalho --------------------------------------------------------------------*/
@@ -58,6 +59,7 @@ body {
     color: #4A4A4A;
     background-color: #f7f8c5;
     text-rendering: geometricPrecision;
+    
 }
 
 h1 {
@@ -81,8 +83,8 @@ h1 {
 }
 
 .fundo_2 img {
-    padding: 0 auto;
-    margin: 0 auto;
+   
+    margin-bottom: 0px;
 }
 
 .titulo_nossa_historia {
@@ -91,11 +93,28 @@ h1 {
 
 
 .nossa_historia {
-    padding: 50px;
+    padding: 30px 200px 30px 200px;
     text-align: justify;
     font-size: 20px;
 
 }
+
+.cardapio_simples {
+    text-align: center;   
+    border-radius: 4px;
+    padding: 30px;
+   
+   
+    
+}
+
+.cardapio_simples table{       
+    border-spacing: 150px 20px;      
+ 
+}
+
+
+
 
 #menuNavegacao {
     text-align: right;
@@ -210,12 +229,14 @@ footer {
     justify-content: center;
     /*  //cetraliza verticalmente */
     margin-bottom: 0px;
-    padding-top: 30px;
-    padding-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 50px;
+    padding-bottom: 10px;
     align-items: center;
     text-align: center;
-    background-color: #dd7c3b;
+    background-color: #f15839;
     color: #000000;
+    font-size: 16px;
 
 }
 
@@ -223,6 +244,7 @@ footer a {
     text-decoration: none;
     color: #000000;
     padding-bottom: 0px;
+    font-size: 14px;
 
 }
 
@@ -273,4 +295,13 @@ div.container {
     padding: 10px 20px;
     background-color: #b6ac53;
     border-radius: 5%;
+}
+table{
+    
+  width: 800px;
+  text-align: left;
+  font-style: normal;  
+  margin: auto;
+ 
+
 }
